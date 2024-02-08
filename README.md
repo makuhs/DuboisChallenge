@@ -7,7 +7,7 @@ https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024
 Dubois style guide can be found here: https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf
 _______________________________________________________________________________________________________
 
-I am challenging myself to replicate all graphics as close as possible entirely in R  --  ❌ no post-processing ❌
+I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 _______________________________________________________________________________________________________
 
 Week 1: Negro Population of Georgia by Counties, 1870, 1880 (plate 06)
