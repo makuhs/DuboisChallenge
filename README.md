@@ -9,6 +9,6 @@ ________________________________________________________________________________
 
 Week 1: Negro Population of Georgia by Counties, 1870, 1880 (plate 06)
 
-[Week 2]:(https://github.com/makuhs/DuboisChallenge/tree/main/Week%202) Slave and Free Negroes (plate 12)
+[Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week%202): Slave and Free Negroes (plate 12)
 
-[Week 3]:(https://github.com/makuhs/DuboisChallenge/tree/main/Week%203) Acres of Land Owned by Negroes in Georgia (plate 19)
+[Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week%203): Acres of Land Owned by Negroes in Georgia (plate 19)
