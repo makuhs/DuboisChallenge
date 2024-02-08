@@ -4,10 +4,14 @@ Contributions to the weekly challenges from the Data Visualization Society to ex
 Full project details can be found here: 
 https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024 
 
-I am challenging myself to produce all graphics entirely in R --  no post-processing allowed!! 
+Dubois style guide can be found here: https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf
+_______________________________________________________________________________________________________
+
+I am challenging myself to produce all graphics entirely in R --  ❌ no post-processing allowed!! ❌
 _______________________________________________________________________________________________________
 
 Week 1: Negro Population of Georgia by Counties, 1870, 1880 (plate 06)
+
 
 [Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week%202): Slave and Free Negroes (plate 12)
 
@@ -17,3 +21,20 @@ Week 1: Negro Population of Georgia by Counties, 1870, 1880 (plate 06)
 [Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week%203): Acres of Land Owned by Negroes in Georgia (plate 19)
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%203/week3_SBS.png)
+
+
+Week 4: The Georgia Negro (plate 01)
+
+Week 5: Race Amalgamation in Georgia (plate 13)
+
+Week 6: Amalgamation of the White and Black elements of the population in the United States (plate 54)
+
+Week 7: Illiteracy of the American Negro compared with other nations (plate 47)
+
+Week 8: The Rise of Negroes from Slavery to Freedom in One Generation (plate 50)
+
+Week 9: Proportion of Freemen and Slaves (plate 51)
+
+Week 10: A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37)
+
+```#DuBoisChallenge2024```
