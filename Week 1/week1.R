@@ -69,8 +69,8 @@ p70 <- ggplot(dataCat)+
   scale_fill_manual(values = colorpal70,
                     name = "")+
   theme_void()+
-  coord_sf(crs = 4326)+
-  xlim(c(86, 76))+
+  coord_sf(crs = 4327)+
+  xlim(c(86, 75.5))+
   theme(legend.position = "none",
         panel.background = element_rect(fill = "#e4d3bf",color = "#e4d3bf"),
         plot.background = element_rect(fill = "#e4d3bf", color = "#e4d3bf"),
@@ -88,27 +88,27 @@ p70L<- p70+
   annotate("text", x = 80, y = 34.5, 
            label = "BETWEEN 2O,OOO AND 3O,OOO",
            family = "Vasarely-Light",
-           size = 3.2,
+           size = 3.1,
            hjust = 0)+ 
   annotate("text", x = 80, y = 33.6, 
            label = "15,OOO TO 2O,OOO",
            family = "Vasarely-Light",
-           size = 3.2,
+           size = 3.1,
            hjust = 0)+
   annotate("text", x = 80, y = 32.7, 
            label = "1O,OOO TO 15,OOO",
            family = "Vasarely-Light",
-           size = 3.2,
+           size = 3.1,
            hjust = 0)
   
 #add points 70
 p70LP <- p70L +
-  annotate("point", x =80.5 , y = 34.5, size = 7.1, color = "#3d2e22")+
-  annotate("point", x =80.5 , y = 34.5, size = 6.8, color = "#22255f")+
-  annotate("point", x =80.5 , y = 33.6, size = 7.1, color = "#3d2e22")+
-  annotate("point", x =80.5 , y = 33.6, size = 6.8, color = "#654531")+
-  annotate("point", x =80.5 , y = 32.7, size = 7.1, color = "#3d2e22")+
-  annotate("point", x =80.5 , y = 32.7, size = 6.8, color = "#d0b49e")
+  annotate("point", x =80.5 , y = 34.5, size = 6.3, color = "#3d2e22")+
+  annotate("point", x =80.5 , y = 34.5, size = 6, color = "#22255f")+
+  annotate("point", x =80.5 , y = 33.6, size = 6.3, color = "#3d2e22")+
+  annotate("point", x =80.5 , y = 33.6, size = 6, color = "#654531")+
+  annotate("point", x =80.5 , y = 32.7, size = 6.3, color = "#3d2e22")+
+  annotate("point", x =80.5 , y = 32.7, size = 6, color = "#d0b49e")
 
 
 
@@ -128,8 +128,8 @@ p80 <- ggplot(dataCat)+
            size = 3.5,
            color = "#362916")+
   theme_void()+
-  coord_sf(crs = 4326)+
-  xlim(c(91, 81))+
+  coord_sf(crs = 4327)+
+  xlim(c(91, 80.5))+
   labs(caption = caption)+
   theme(legend.position = "none",
         panel.background = element_rect(fill = "#e4d3bf",color = "#e4d3bf"),
@@ -144,40 +144,40 @@ p80L <- p80 +
   annotate("text", x =89.5 , y = 34.3, 
            label = "5,OOO TO 1O,OOO",
            family = "Vasarely-Light",
-           size = 3.25,
+           size = 3.1,
            hjust = 0)+ 
   annotate("text", x = 89.5, y = 33.4, 
            label = "2,5OO TO 5,OOO",
            family = "Vasarely-Light",
-           size = 3.25,
+           size = 3.1,
            hjust = 0)+
   annotate("text", x = 89.5, y = 32.5, 
            label = "1,OOO TO 2,5OO",
            family = "Vasarely-Light",
-           size = 3.25,
+           size = 3.1,
            hjust = 0)+
   annotate("text", x = 89.5, y = 31.6, 
            label = "UNDER 1,OOO",
            family = "Vasarely-Light",
-           size = 3.25,
+           size = 3.1,
            hjust = 0)
 
 # add points 80
 p80LP <- p80L +
-  annotate("point", x =90 , y = 34.3, size = 7.1, color = "#3d2e22")+
-  annotate("point", x =90 , y = 34.3, size = 6.8, color = "#d64057")+
-  annotate("point", x =90 , y = 33.4, size = 7.1, color = "#3d2e22")+
-  annotate("point", x =90 , y = 33.4, size = 6.8, color = "#dea59b")+
-  annotate("point", x =90 , y = 32.5, size = 7.1, color = "#3d2e22")+
-  annotate("point", x =90 , y = 32.5, size = 6.8, color = "#e9b96f")+
-  annotate("point", x =90 , y = 31.6, size = 7.1, color = "#3d2e22")+
-  annotate("point", x =90 , y = 31.6, size = 6.8, color = "#395346")
+  annotate("point", x =90 , y = 34.3, size = 6.3, color = "#3d2e22")+
+  annotate("point", x =90 , y = 34.3, size = 6, color = "#d64057")+
+  annotate("point", x =90 , y = 33.4, size = 6.3, color = "#3d2e22")+
+  annotate("point", x =90 , y = 33.4, size = 6, color = "#dea59b")+
+  annotate("point", x =90 , y = 32.5, size = 6.3, color = "#3d2e22")+
+  annotate("point", x =90 , y = 32.5, size = 6, color = "#e9b96f")+
+  annotate("point", x =90 , y = 31.6, size = 6.3, color = "#3d2e22")+
+  annotate("point", x =90 , y = 31.6, size = 6, color = "#395346")
 
 
 # combine
 p70LP + p80LP + plot_layout(nrow = 2)
 
 #Final Plot 
-ggsave("week1.png", width = 5.45, height = 6.9, units = "in") 
+ggsave("week1.png", width = 5.45, height = 6.6, units = "in") 
 
 
