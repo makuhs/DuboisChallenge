@@ -5,24 +5,26 @@ Full project details can be found here:
 https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024 
 
 Dubois style guide can be found here: https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf
-_______________________________________________________________________________________________________
+
+</div>
 
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 
 Follow along on twitter/X: [@molly_kuhs](https://twitter.com/molly_kuhs)
-_______________________________________________________________________________________________________
 
-[Week 1](https://github.com/makuhs/DuboisChallenge/tree/main/Week%201): Negro Population of Georgia by Counties, 1870, 1880 (plate 06)
+</div>
+
+* **[Week 1](https://github.com/makuhs/DuboisChallenge/tree/main/Week%201): Negro Population of Georgia by Counties, 1870, 1880 (plate 06)**
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%201/week1_sidebyside.png) 
 
 
-[Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week%202): Slave and Free Negroes (plate 12)
+* **[Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week%202): Slave and Free Negroes (plate 12)**
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%202/week2_sidebyside.png) 
 
 
-[Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week%203): Acres of Land Owned by Negroes in Georgia (plate 19)
+* **[Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week%203): Acres of Land Owned by Negroes in Georgia (plate 19)**
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%203/week3_sidebyside.png)
 
