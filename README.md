@@ -19,14 +19,17 @@ Follow along on twitter/X: [@molly_kuhs](https://twitter.com/molly_kuhs)
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%201/week1_sidebyside.png) 
 
 
+
 **[Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week%202): Slave and Free Negroes (plate 12)**
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%202/week2_sidebyside.png) 
 
 
+
 **[Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week%203): Acres of Land Owned by Negroes in Georgia (plate 19)**
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%203/week3_sidebyside.png)
+
 
 
 Week 4: The Georgia Negro (plate 01)
