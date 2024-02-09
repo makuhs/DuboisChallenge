@@ -16,6 +16,8 @@ Follow along on twitter/X: [@molly_kuhs](https://twitter.com/molly_kuhs)
 
 **[Week 1](https://github.com/makuhs/DuboisChallenge/tree/main/Week%201): Negro Population of Georgia by Counties, 1870, 1880 (plate 06)**
 
+Maps comparing the population of Black Georgians in the years 1870 and 1880. 
+
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%201/week1_sidebyside.png) 
 
 
