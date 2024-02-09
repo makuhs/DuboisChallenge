@@ -12,7 +12,7 @@
 library(tidyverse)
 
 #data load
-data <- readr::read_csv("week3Data.csv",
+data <- readr::read_csv("data/week3Data.csv",
                         col_types = "fn")
 
 #data wrangle
@@ -56,7 +56,7 @@ plot<- ggplot(dataLab, aes(acres, year))+
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         plot.margin = margin(0.25,0.5,0.25,1, "cm"),
-        plot.background = element_rect(fill = '#decfbe'))
+        plot.background = element_rect(fill = '#e9e1d0', color = NA))
 
 #titles 
 caption <- "Dubois Challenge 2024 -- Week 3 -- Molly Kuhs "
@@ -66,10 +66,11 @@ plot +
   labs(title = title,
        caption = caption)+
   theme(plot.title = element_text(family = "B52-ULCW00-ULC",
-                                  size = 16,
+                                  size = 15,
                                   hjust = 0.5),
         plot.caption = element_text(family = "Vasarely-Light",
-                                    size = 8))
+                                    size = 8,
+                                    hjust = 0.5))
 
 #final 
 ggsave("week3.png", width = 6, height = 8, units = "in") 
