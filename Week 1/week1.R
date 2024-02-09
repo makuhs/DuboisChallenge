@@ -1,5 +1,5 @@
 #Dubois Challenges 2024
-#Week 2 
+#Week 1 
 
 ###########################
 
@@ -12,7 +12,6 @@
 #Packages 
 library(tidyverse)
 library(sf)
-library(ggpubr)
 library(patchwork)
 library(ggforce)
 
@@ -47,9 +46,11 @@ dataCat$cat70 <- as.factor(dataCat$cat70)
 dataCat$cat80 <- as.factor(dataCat$cat80)
 
 
-#plotS
+#plots
 
 colorpal70 <- c("#decfbe","#395346","#e9b96f","#dea59b","#d64057","#d0b49e","#654531","#22255f")
+
+title <-"N E G R O   P O P U L A T I O N   O F   G E O R G I A   B Y   C O U N T I E S."
 
 
 #base1870plot
@@ -66,28 +67,51 @@ p70<- ggplot(dataCat)+
                     name = "")+
   theme_void()+
   coord_sf(crs = 4326, clip = 'off')+
-  theme(axis.text.y = element_blank(),
-        axis.text.x = element_blank(),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        legend.position = "none",
+  theme(legend.position = "none",
         panel.background = element_rect(fill = "#decfbe",color = "#decfbe"),
         plot.background = element_rect(fill = "#decfbe", color = "#decfbe"),
         plot.margin = margin(0.3,7,8,0.5, "cm"))+
   labs(x = "",
        y = "")+
-  annotate("text", x = -80.4, y = 35.7, 
-           label = "N E G R O   P O P U L A T I O N   O F   G E O R G I A   B Y   C O U N T I E S.",
+  annotate("text", x = -81, y = 35.7, 
+           label = title,
            family = "B52-ULCW00-ULC",
            size = 4)
-  
+
 p70
+
+#base1880plot
+
+colorpal80 <- c("#395346","#e9b96f","#dea59b","#d64057","#d0b49e","#654531","#22255f")
+
+
+p80 <- ggplot(dataCat)+
+  geom_sf(aes(fill = cat80),
+          alpha=0.9,
+          linewidth = 0.1,
+          color = "grey25")+
+  scale_fill_manual(values = colorpal80,
+                    name = "")+
+  annotate("text", x = -84.4, y=35.2,
+           label = "1880",
+           family = "B52-ULCW00-ULC",
+           size = 3.5)+
+  theme_void()+
+  coord_sf(crs = 4326, clip = 'off')+
+  theme(legend.position = "none",
+        panel.background = element_rect(fill = "transparent",color = NA),
+        plot.background = element_rect(fill = "transparent", color = NA))
+
+p80
+
+
+#upper labels: 
 
 lab1 <- ggplot() +
   theme_void()+
   xlim(2, 6)+
   ylim(2, 6)+
-  geom_circle(aes(x0 = 2.2, y0 = 5, r = 0.2, linewidth = I(0.1)), # will ring error but still will change linewidth
+  geom_circle(aes(x0 = 2.2, y0 = 5, r = 0.2, linewidth = I(0.1)), # will error but still changes linewidth
               fill = "#22255f", 
               color = "black")+
   geom_circle(aes(x0 = 2.2, y0 = 4.1, r = 0.2, linewidth = I(0.1)),
@@ -118,43 +142,7 @@ lab1 <- ggplot() +
   coord_cartesian(clip = "off")
 
 
-test <- p70 + 
-  inset_element(lab1, left = 0.98, bottom = 0.25, right = 1.86, top = 0.95)+
-  inset_element(lab2, left = -0.1, bottom = -0.8, right = 1.2, top = 0.2)
-
-test
-  
-
-
-
-#base1880plot
-
-colorpal80 <- c("#395346","#e9b96f","#dea59b","#d64057","#d0b49e","#654531","#22255f")
-
-
-test8 <- ggplot(dataCat)+
-  geom_sf(aes(fill = cat80),
-          alpha=0.9,
-          linewidth = 0.1,
-          color = "grey25")+
-  scale_fill_manual(values = colorpal80,
-                    name = "")+
-  annotate("text", x = -84.4, y=35.2,
-           label = "1880",
-           family = "B52-ULCW00-ULC",
-           size = 3.5)+
-  theme_void()+
-  coord_sf(crs = 4326, clip = 'off')+
-  theme(legend.position = "none",
-        panel.background = element_rect(fill = "transparent",color = NA),
-        plot.background = element_rect(fill = "transparent", color = NA))
-
-test + 
-  inset_element(test8, left = 0.9, bottom = -0.9, right = 2, top = 0.1)
-
-
-
-
+#bottom labels: 
 
 lab2<- ggplot() +
   theme_minimal()+
@@ -203,43 +191,21 @@ lab2<- ggplot() +
        y = "")+
   coord_cartesian(clip = "off")
 
-bottom <- p80 + inset_element(lab2, left = -0.75, bottom = 0.05, right = 0.35, top = 1)
-
-  
 
 
+#Combine Plots
+
+maps <- p70 + 
+  inset_element(test8, left = 0.9, bottom = -0.9, right = 2, top = 0.1)
+
+labels <- maps +
+  inset_element(lab1, left = 0.98, bottom = 0.25, right = 1.86, top = 0.95)+
+  inset_element(lab2, left = -0.1, bottom = -0.8, right = 1.2, top = 0.2)
+
+labels
 
 
-
-
-
-
-
-
-
-p80 <- ggplot(dataCat)+
-  geom_sf(aes(fill = cat80),
-          alpha=0.9,
-          linewidth = 0.15,
-          color = "grey25")+
-  annotate("text", x = -84.4, y=35.2,
-           label = "1880",
-           family = "B52-ULCW00-ULC",
-           size = 5)+
-  scale_fill_manual(values = colorpal80,
-                    name = "")+
-  theme_void()+
-  coord_sf(crs = 4326, clip = 'off')+
-  theme(axis.text.y = element_blank(),
-        axis.text.x = element_blank(),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        legend.position = "none",
-        panel.background = element_rect(fill = "transparent",color = NA),
-        plot.background = element_rect(fill = "transparent", color = NA),
-        plot.margin = margin(0.5,1,0,7, "cm"))+
-  labs(x = "",
-       y = "")
-
+#Final Plot 
+ggsave("week1.png", width = 5.6, height = 6.6, units = "in") 
 
 
