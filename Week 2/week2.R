@@ -15,7 +15,7 @@ library(tidyverse)
 library(gridExtra)
 
 #data load
-data <- read.csv("week2.csv")
+data <- read.csv("data/week2.csv")
 data$Year <- as.factor(data$Year)
 
 #set value for background
@@ -141,7 +141,7 @@ plotTitle<- plotEdge +
   labs(title = title,
        caption = caption)+
   theme(plot.title = element_text(family = "B52-ULCW00-ULC",
-                                  size = 16,
+                                  size = 14,
                                   hjust = 0.5),
         plot.caption = element_text(family = "Vasarely-Light",
                                     size = 8))
