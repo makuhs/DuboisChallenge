@@ -36,7 +36,13 @@ Maps comparing the population of Black Georgians in the years 1870 and 1880.
 
 Week 4: The Georgia Negro (plate 01)
 
-Week 5: Race Amalgamation in Georgia (plate 13)
+-----------------------------------
+
+**[Week 5](https://github.com/makuhs/DuboisChallenge/tree/main/Week%205): Race Amalgamation in Georgia (plate 13)
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%205/week5_sidebyside.png)
+
+-----------------------------------
 
 Week 6: Amalgamation of the White and Black elements of the population in the United States (plate 54)
 
