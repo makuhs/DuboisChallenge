@@ -23,7 +23,7 @@ p<- ggplot(data, aes(col, Percentage, fill = Category))+
            linewidth = 0.1)+
   theme_void()+
   scale_fill_manual(values = c("#1e1e1e", "#42271b", "#fdbb00"))+
-  coord_cartesian(y = (c(4, 101)), clip = "off")+
+  coord_cartesian(y = (c(4, 102)), clip = "off")+
   xlim(c(-6, 5))+
   theme(
     legend.position = "none",
@@ -39,34 +39,88 @@ caption <- "\nDubois Challenge 2024 -- Week 5 -- Molly Kuhs\n"
 
 pLabs<- p + 
   labs(title = title,
-       subtitle = subtitle,
        caption = caption)+
   theme(plot.title = element_text(family = "B52-ULCW00-ULC",
                                   size = 14.5,
                                   hjust = 0.5,
                                   color="#38271f"),
-        plot.subtitle = element_text(family = "Vasarely-Light",
-                                     size = 9.5,
-                                     hjust = 0.5,
-                                     color="#38271f"),
         plot.caption = element_text(family = "Vasarely-Light",
                                     size = 7.5,
-                                    hjust = 0.5))
+                                    hjust = 0.5))+
+  annotate("text", x= -0.5, y= 105.5, label = subtitle,
+          family = "Vasarely-Light",
+          size = 3.1,
+          hjust = 0.5,
+          color="#38271f")
 
 #annotate
 pLabs +
-  #barlabels
-  #textlabels
-  annotate("text", x =-4.4 , y = 85, 
-           label = "BLACK.",
+ 
+   #barlabels
+  annotate("text", x =1 , y = 78, 
+           label = "44%",
            family = "B52-ULCW00-ULC",
            size = 4.5,
-           hjust = 0)+
-  #subtext
-  annotate("text", x =-3.8 , y = 55, 
-           label = "I.E.  FULL-BLOODED\nNEGROES",
+           hjust = 0.5,
+           color = "#e5d6c3")+
+  annotate("text", x =1 , y = 36, 
+           label = "40%",
+           family = "B52-ULCW00-ULC",
+           size = 4.5,
+           hjust = 0.5,
+           color = "#9b0826",
+           alpha = 0.4)+
+  annotate("text", x =1 , y = 8, 
+           label = "16%",
+           family = "B52-ULCW00-ULC",
+           size = 4.5,
+           hjust = 0.5,
+           color = "#38271f")+
+  
+  #textlabels
+  annotate("text", x =-4.6 , y = 94, 
+           label = "BLACK.",
+           family = "B52-ULCW00-ULC",
+           size = 5.2,
+           hjust = 0,
+           color = "#38271f")+
+  annotate("text", x =-4.6 , y = 49, 
+           label = "BROWN.",
+           family = "B52-ULCW00-ULC",
+           size = 5.2,
+           hjust = 0,
+           color = "#38271f")+
+  annotate("text", x =-4.6 , y = 10.2, 
+           label = "YELLOW.",
+           family = "B52-ULCW00-ULC",
+           size = 5.2,
+           hjust = 0,
+           color = "#38271f")+
+ 
+   #subtext
+  annotate("text", x =-3.8 , y = 89.8, 
+           label = "I.E.  FULL-BLOODED\nNEGROES.",
            family = "Vasarely-Light",
-           size = 2.5,
-           hjust = 0)
+           size = 2.3,
+           hjust = 0,
+           lineheight = .9,
+           color = "#38271f")+
+  annotate("text", x =-3.8 , y = 41.5, 
+           label = "I.E.  PERSONS  WITH\nSOME  WHITE  BLOOD\nOR DESCENDANTS\nOF  LIGHT  COLORED\nAFRICANS.",
+           family = "Vasarely-Light",
+           size = 2.3,
+           hjust = 0,
+           lineheight = .9,
+           color = "#38271f")+
+  annotate("text", x =-3.8 , y = 4.9, 
+           label = "I.E.  PERSONS  WITH\nMORE  WHITE  THAN\nNERGRO  BLOOD.",
+           family = "Vasarely-Light",
+           size = 2.3,
+           hjust = 0,
+           lineheight = .9,
+           color = "#38271f")
 
+
+#final 
+ggsave("week5.png", width = 5.65, height = 7, units = "in") 
 
