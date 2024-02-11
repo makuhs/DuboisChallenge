@@ -24,11 +24,15 @@ Maps comparing the population of Black Georgians in the years 1870 and 1880.
 
 **[Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week%202): Slave and Free Negroes (plate 12)**
 
+Unique barchart depicting the percentages of free and enslaved Black Americans before and after emancipation in 1863. 
+
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%202/week2_sidebyside.png) 
 
 -----------------------------------
 
 **[Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week%203): Acres of Land Owned by Negroes in Georgia (plate 19)**
+
+Barchart depicting acres of land owned by Black Georgians during the later half of the 19th century (from 1874 - 1899).
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%203/week3_sidebyside.png)
 
@@ -39,6 +43,8 @@ Week 4: The Georgia Negro (plate 01)
 -----------------------------------
 
 **[Week 5](https://github.com/makuhs/DuboisChallenge/tree/main/Week%205): Race Amalgamation in Georgia (plate 13)**
+
+Stacked barchart depicting the racial make-up of a subset of 40,000 Black Georgians.  
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%205/week5_sidebyside.png)
 
