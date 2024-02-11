@@ -123,9 +123,3 @@ pLabs +
 
 #final 
 ggsave("week5.png", width = 5.65, height = 7, units = "in") 
-
-
-
-##INCREASE Y AXIS 
-##MESS WITH TEXT SIZE
-
