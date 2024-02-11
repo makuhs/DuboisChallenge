@@ -40,7 +40,7 @@ Week 4: The Georgia Negro (plate 01)
 
 **[Week 5](https://github.com/makuhs/DuboisChallenge/tree/main/Week%205): Race Amalgamation in Georgia (plate 13)
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%205/week5.png)
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%205/week5_sidebyside.png)
 
 -----------------------------------
 
