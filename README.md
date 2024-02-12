@@ -12,9 +12,9 @@ I am challenging myself to replicate all graphics as close as possible entirely 
 
 [Fonts](): 
 
-Titles/Bold Labels: B52-ULC by David Phillips
+**Titles/Bold Labels:** B52-ULC by David Phillips
 
-Subtitles/Text Labels: Vasarley Light by Simon Becker, Frederico Orru, and Jose Cunyat 
+**Subtitles/Text Labels:** Vasarley Light by Simon Becker, Frederico Orru, and Jose Cunyat 
 
 -----------------------------------
 
