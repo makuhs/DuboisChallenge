@@ -11,8 +11,12 @@ Dubois style guide can be found here: https://github.com/ajstarks/dubois-data-po
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 
 [Fonts](): 
+
 Titles/Bold Labels: B52-ULC by David Phillips
+
 Subtitles/Text Labels: Vasarley Light by Simon Becker, Frederico Orru, and Jose Cunyat 
+
+-----------------------------------
 
 Follow along on [mastodon](https://vis.social/@mollykuhs) or [twitter/X](https://twitter.com/molly_kuhs)
 
