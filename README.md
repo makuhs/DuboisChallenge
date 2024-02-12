@@ -7,13 +7,6 @@ https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024
 Dubois style guide can be found here: https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf
 
 -----------------------------------
-[Fonts](https://github.com/makuhs/DuboisChallenge/tree/main/fonts): 
-
-**Titles/Bold Labels:** B52-ULC by David Phillips
-
-**Subtitles/Text Labels:** Vasarley Light by Simon Becker, Frederico Orru, and Jose Cunyat 
-
------------------------------------
 
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 
