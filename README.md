@@ -38,10 +38,6 @@ Barchart depicting acres of land owned by Black Georgians during the later half 
 
 -----------------------------------
 
-Week 4: The Georgia Negro (plate 01)
-
------------------------------------
-
 **[Week 5](https://github.com/makuhs/DuboisChallenge/tree/main/Week%205): Race Amalgamation in Georgia (plate 13)**
 
 Stacked barchart depicting the racial make-up of a subset of 40,000 Black Georgians.  
