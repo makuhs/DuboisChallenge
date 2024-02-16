@@ -10,39 +10,39 @@ Dubois style guide can be found here: https://github.com/ajstarks/dubois-data-po
 
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 
-Follow along on [mastodon](https://vis.social/@mollykuhs) or [twitter/X](https://twitter.com/molly_kuhs)
+Follow along on [mastodon](https://vis.social/@mollykuhs) or [bluesky](https://bsky.app/profile/kuhs.bsky.social)
 
 -----------------------------------
 
-**[Week 1](https://github.com/makuhs/DuboisChallenge/tree/main/Week%201): Negro Population of Georgia by Counties, 1870, 1880 (plate 06)**
+**[Week 1](https://github.com/makuhs/DuboisChallenge/tree/main/Week01): Negro Population of Georgia by Counties, 1870, 1880 (plate 06)**
 
 Maps comparing the population of Black Georgians in the years 1870 and 1880. 
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%201/week1_sidebyside.png) 
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week01/week1_sidebyside.png) 
 
 -----------------------------------
 
-**[Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week%202): Slave and Free Negroes (plate 12)**
+**[Week 2](https://github.com/makuhs/DuboisChallenge/tree/main/Week02): Slave and Free Negroes (plate 12)**
 
 Unique barchart depicting the percentages of free and enslaved Black Americans before and after emancipation in 1863. 
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%202/week2_sidebyside.png) 
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week02/week2_sidebyside.png) 
 
 -----------------------------------
 
-**[Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week%203): Acres of Land Owned by Negroes in Georgia (plate 19)**
+**[Week 3](https://github.com/makuhs/DuboisChallenge/tree/main/Week03): Acres of Land Owned by Negroes in Georgia (plate 19)**
 
 Barchart depicting acres of land owned by Black Georgians during the later half of the 19th century (from 1874 - 1899).
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%203/week3_sidebyside.png)
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week03/week3_sidebyside.png)
 
 -----------------------------------
 
-**[Week 5](https://github.com/makuhs/DuboisChallenge/tree/main/Week%205): Race Amalgamation in Georgia (plate 13)**
+**[Week 5](https://github.com/makuhs/DuboisChallenge/tree/main/Week05): Race Amalgamation in Georgia (plate 13)**
 
 Stacked barchart depicting the racial make-up of a subset of 40,000 Black Georgians.  
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week%205/week5_sidebyside.png)
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week05/week5_sidebyside.png)
 
 -----------------------------------
 
