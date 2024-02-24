@@ -11,6 +11,7 @@
 #Packages 
 library(tidyverse)
 library(ggpattern)
+library(magick)
 
 
 #Data: generate boundaries of two main groups
@@ -118,7 +119,7 @@ tanX[70:74] <- 1.9 #add decrease upper right corner
 pShapeF<- pShape +
   annotate("polygon", x = tanX, y = tanY, fill = NA, color = "#151613", linewidth = 0.2)+
   annotate("polygon", x = blackX, y = blackY, fill = "#151613", color = "#151613", linewidth = 0.1)+
-  annotate("polygon", x = c(1.885, 2, 2) , y = c(92.15, 92.15, 88.5), fill = "#d1c4b7", color = NA) #hide patterned corner
+  annotate("polygon", x = c(1.885, 2, 2) , y = c(92.15, 92.15, 88.5), fill = "#d1c4b7", color = NA) #hide corner
   
 
 
@@ -218,34 +219,34 @@ subsubtitle <- "Done by Atlanta University."
 caption <- "#DuboisChallenge2024 -- Week 6 -- Molly Kuhs"
 
  pFinal <- pLab +
-   annotate("text", x= 0.8, y = 110, label = title, 
+   annotate("text", x= 0.775, y = 110, label = title, 
            color = "#151613",
            family = "Perpetua",
            size = 6,
            hjust = 0.5,
            lineheight = 0.9,
            alpha=0.6)+
-  annotate("text", x= 0.85, y = 103, label = subtitle, 
+  annotate("text", x= 0.775, y = 103, label = subtitle, 
            color = "#151613",
            family = "Perpetua",
            size = 4.3,
            hjust = 0.5,
            alpha=0.6)+
-  annotate("text", x= 0.85, y = 98.5, label = subsubtitle, 
+  annotate("text", x= 0.775, y = 98.5, label = subsubtitle, 
            color = "#151613",
            family = "Perpetua",
            size = 3.7,
            hjust = 0.5,
            alpha=0.6)+
-   annotate("text", x= 1.9, y = -3.5, label = caption, 
+   annotate("text", x= 1.85, y = -3.5, label = caption, 
             color = "#151613",
             family = "Perpetua",
             size = 3.3,
             hjust = 1,
             alpha=0.4)+
    #line dividers
-  annotate("segment", x = 0.65, xend = 1, y = 105.3, yend = 105.3, color = "#151613", linewidth = 0.1, alpha=0.4)+
-  annotate("segment", x = 0.65, xend = 1, y = 100.5, yend = 100.5, color = "#151613", linewidth = 0.1, alpha=0.4)
+  annotate("segment", x = 0.55, xend = 0.95, y = 105.3, yend = 105.3, color = "#151613", linewidth = 0.1, alpha=0.4)+
+  annotate("segment", x = 0.55, xend = 0.95, y = 100.5, yend = 100.5, color = "#151613", linewidth = 0.1, alpha=0.4)
 
   
 pFinal
