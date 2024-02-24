@@ -4,22 +4,22 @@ Contributions to the weekly challenges from the Data Visualization Society to ex
 Full project details can be found here: 
 https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024 
 
------------------------------------
-
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 
 Follow along on [mastodon](https://vis.social/@mollykuhs) or [bluesky](https://bsky.app/profile/kuhs.bsky.social)
 
 -----------------------------------
-
+<div align="center">
 ## **2024 REPRODUCTIONS**
 Side-by-sides with original plates can be found below along with links to data & code
+</div>
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/final_combined.png)
 
 -----------------------------------
 
-**[Week 1](https://github.com/makuhs/DuboisChallenge/tree/main/Week01): Negro Population of Georgia by Counties, 1870, 1880 (plate 06)**
+## Week 1
+**[Negro Population of Georgia by Counties, 1870, 1880 (plate 06)](https://github.com/makuhs/DuboisChallenge/tree/main/Week01)**
 
 Maps comparing the population of Black Georgians in the years 1870 and 1880. 
 
