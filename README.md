@@ -4,13 +4,18 @@ Contributions to the weekly challenges from the Data Visualization Society to ex
 Full project details can be found here: 
 https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024 
 
-Dubois style guide can be found here: https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf
-
 -----------------------------------
 
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 
 Follow along on [mastodon](https://vis.social/@mollykuhs) or [bluesky](https://bsky.app/profile/kuhs.bsky.social)
+
+-----------------------------------
+
+## **2024 REPRODUCTIONS**
+Side-by-sides with original plates can be found below along with links to data & code
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/final_combined.png)
 
 -----------------------------------
 
@@ -46,14 +51,43 @@ Stacked barchart depicting the racial make-up of a subset of 40,000 Black Georgi
 
 -----------------------------------
 
-Week 6: Amalgamation of the White and Black elements of the population in the United States (plate 54)
+**[Week 6](https://github.com/makuhs/DuboisChallenge/tree/main/Week06): Amalgamation of the White and Black elements of the population in the United States (plate 54)**
 
-Week 7: Illiteracy of the American Negro compared with other nations (plate 47)
+A mountain-like area chart displaying shifting American racial identities between 1800 and 1890.
 
-Week 8: The Rise of Negroes from Slavery to Freedom in One Generation (plate 50)
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week06/week6_sidebyside.png)
 
-Week 9: Proportion of Freemen and Slaves (plate 51)
+-----------------------------------
 
-Week 10: A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37)
+**[Week 7](https://github.com/makuhs/DuboisChallenge/tree/main/Week07): Illiteracy of the American Negro compared with other nations (plate 47)**
+
+Horizontal bar charts comparing the state of educational opportunities (via illiteracy) of Black Americans with the larger world. 
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week07/week7_sidebyside.png)
+
+-----------------------------------
+
+**[Week 8](https://github.com/makuhs/DuboisChallenge/tree/main/Week08): The Rise of Negroes from Slavery to Freedom in One Generation (plate 50)**
+
+Stacked bars to show how Black Americans, largely enslaved in 1860, transformed post emancipation into a group where 30 years later, one-fifth owned their own land.
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week08/week8_sidebyside.png)
+
+-----------------------------------
+
+**[Week 9](https://github.com/makuhs/DuboisChallenge/tree/main/Week09): Proportion of Freemen and Slaves (plate 51)**
+
+Area chart displaying number of enslaved and free Black Americans from 1790 to 1870 with a sharp decrease in enslaved upong emancipation in 1863-65.
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week09/week9_sidebyside.png)
+
+-----------------------------------
+
+**[Week 10](https://github.com/makuhs/DuboisChallenge/tree/main/Week10): A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37)**
+
+Serving as an overview, this plate includes both a map and pie chart showing professions among Black Americans in 1900. Graphics are accompanied by both French & English text. 
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week10/week10_sidebyside.png)
+
 
 ```#DuBoisChallenge2024```
