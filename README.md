@@ -11,7 +11,7 @@ Follow along on [mastodon](https://vis.social/@mollykuhs) or [bluesky](https://b
 -----------------------------------
 
 ## **2024 REPRODUCTIONS**
-Side-by-sides with original plates can be found below along with links to data & code
+For 2024, I completed 9 reproductions in ```R``` using ```ggplot2``` Side-by-sides with original plates can be found below along with links to data & code
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/final_combined.png)
 
