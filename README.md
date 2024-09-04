@@ -10,7 +10,9 @@ Follow along on [mastodon](https://vis.social/@mollykuhs) or [bluesky](https://b
 
 -----------------------------------
 
-**Context Note:** The word “negro” appears in this chart and was utilized frequently by W.E. B. Du Bois’ team across their World's Fair exhibition. Despite a growing discussion in the early 1900s to move away from the term, Du Bois was in favor of transforming it into a positive affirmation of their perseverance and freedom as a people (1). I have chosen to include the word in my chart recreations to honor this historical context but it will not be utilized in any of my written text discussing or referencing their work. 
+## **Context Note:** 
+
+The word “negro” appears in this chart and was utilized frequently by W.E. B. Du Bois’ team across their World's Fair exhibition. Despite a growing discussion in the early 1900s to move away from the term, Du Bois was in favor of transforming it into a positive affirmation of their perseverance and freedom as a people (1). I have chosen to include the word in my chart recreations to honor this historical context but it will not be utilized in any of my written text discussing or referencing their work. 
 
 A reminder that the Black population in America today is incredibly diverse and your language matters (2). The term ‘Black’ (with a capital B) is currently the preferred racial identifier when referring to the broader community, while the term ‘African American’ refers to a specific ethnic background (3). Some individuals may identify with both ‘Black ‘and ‘African American’, only one term (i.e. not all Black people are African American), or a completely separate identifier. Specific terminology will vary with context and setting but the best way to know how someone identifies is to ask them which term(s) they prefer.  For more, please see below. 
 
