@@ -14,9 +14,11 @@ Follow along on [mastodon](https://vis.social/@mollykuhs) or [bluesky](https://b
 
 A reminder that the Black population in America today is incredibly diverse and your language matters (2). The term ‘Black’ (with a capital B) is currently the preferred racial identifier when referring to the broader community, while the term ‘African American’ refers to a specific ethnic background (3). Some individuals may identify with both ‘Black ‘and ‘African American’, only one term (i.e. not all Black people are African American), or a completely separate identifier. Specific terminology will vary with context and setting but the best way to know how someone identifies is to ask them which term(s) they prefer.  For more, please see below. 
 
-(1) ‘Do We Need Another Name” Fannie Barrier Williams, 1904 ([The Southern Workman](https://play.google.com/books/reader?id=iLs3AQAAIAAJ&pg=GBS.PA32&hl=en))
+<span style="font-size:0.5em;"> (1) ‘Do We Need Another Name” Fannie Barrier Williams, 1904 ([The Southern Workman](https://play.google.com/books/reader?id=iLs3AQAAIAAJ&pg=GBS.PA32&hl=en))
+
 (2) ‘The Growing Diversity of Black America’ Christine Tamire, 2021 ([Pew Research Center](https://www.pewresearch.org/social-trends/2021/03/25/the-growing-diversity-of-black-america/)) 
-(3) 'Reparative Description Preferred Terms’ 2023 ([US National Archives](https://www.archives.gov/research/catalog/lcdrg/appendix/black-person))
+
+(3) 'Reparative Description Preferred Terms’ 2023 ([US National Archives](https://www.archives.gov/research/catalog/lcdrg/appendix/black-person))</span>
 
 -----------------------------------
 
