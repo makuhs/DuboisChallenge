@@ -13,7 +13,7 @@
 library(tidyverse)
 
 #data 
-data <- read.csv("data/week5Data.csv")%>%
+data <- read.csv("2024/data/week5Data.csv")%>%
   mutate(col = 1)
 
 #plot 

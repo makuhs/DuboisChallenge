@@ -2,7 +2,7 @@
 Contributions to the weekly challenges from the Data Visualization Society to explore the work of W.E.B Dubois — a Black American civil rights activist, sociologist and writer—by recreating the visualizations from the 1900 Paris Exposition using modern tools
 
 Full project details can be found here: 
-https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024 
+https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025 
 
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
 

@@ -11,7 +11,7 @@
 library(tidyverse)
 
 ## Load Data
-data <- read.csv("data/week9Data.csv")%>%
+data <- read.csv("2024/data/week9Data.csv")%>%
   mutate(fill = 100,
          freeLab = paste0(Free, '%'),
          pos = Slave)

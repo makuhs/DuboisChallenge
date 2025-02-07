@@ -12,7 +12,7 @@ library(tidyverse)
 library(patchwork)
 
 ## Load Data
-data <- read.csv("data/week8Data.csv")
+data <- read.csv("2024/data/week8Data.csv")
 
 data1860 <- data[1,] %>%
   pivot_longer(cols = Slave:Free,

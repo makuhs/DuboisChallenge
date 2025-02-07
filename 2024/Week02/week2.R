@@ -15,7 +15,7 @@ library(tidyverse)
 library(gridExtra)
 
 #data load
-data <- read.csv("data/week2.csv")
+data <- read.csv("2024/data/week2.csv")
 data$Year <- as.factor(data$Year)
 
 #set value for background
