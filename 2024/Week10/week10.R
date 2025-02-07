@@ -14,7 +14,7 @@ library(patchwork)
 
 ## Load Data
 #pie chart
-dataPie <- read.csv("data/week10pie.csv")%>%
+dataPie <- read.csv("2024/data/week10pie.csv")%>%
   mutate(order = c(1, 6, 4, 5, 3, 2),
          labelL = c("58.5%", "", "", "", "", "28.1%"), #groups for label placement 
          labelM = c("", "4.3%", "", "", "3.8%", ""),
