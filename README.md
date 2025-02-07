@@ -4,7 +4,7 @@ Contributions to the weekly challenges from the Data Visualization Society to ex
 Full project details can be found here: 
 https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025 
 
-I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  --  ❌ no post-processing ❌
+I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  with no post-processing. 
 
 Follow along on [mastodon](https://vis.social/@mollykuhs) or [bluesky](https://bsky.app/profile/kuhs.bsky.social)
 
