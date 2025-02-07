@@ -25,6 +25,18 @@ A reminder that the Black population in America today is incredibly diverse and 
 -----------------------------------
 ## **2025 REPRODUCTIONS**
 
+For 2025, I am creating reproductions in ```R``` using ```ggplot2``` --  ❌ no post-processing ❌ Side-by-sides with original plates can be found below along with links to data & code.
+
+### **Week 2:** 
+  
+Barchart depicting acres of land owned by Black Georgians during the later half of the 19th century (from 1874 - 1899).
+
+**[Acres of Land Owned by Negroes in Georgia (plate 19)](https://github.com/makuhs/DuboisChallenge/tree/main/2025/Week02)**
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2025/Week02/week2_sidebyside.png)
+
+
+
 ```#DuBoisChallenge2025```
 
 -----------------------------------
