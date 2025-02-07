@@ -15,7 +15,7 @@ library(ggpattern)
 library(magick)
 
 #data load
-data <- readr::read_csv("data/week3Data.csv",
+data <- readr::read_csv("2024/data/week3Data.csv",
                         col_types = "fn")
 
 ## Data wrangle & clean
