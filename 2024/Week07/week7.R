@@ -15,7 +15,7 @@ library(magick)
 
 
 ## Load data 
-data <- read.csv("data/week7Data.csv", 
+data <- read.csv("2024/data/week7Data.csv", 
                  header = F) 
 
 colnames(data)<- c("con", "rate")
