@@ -32,7 +32,7 @@ A reminder that the Black population in America today is incredibly diverse and 
 ## **2024 REPRODUCTIONS**
 For 2024, I completed 9 reproductions in ```R``` using ```ggplot2``` Side-by-sides with original plates can be found below along with links to data & code
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/final_combined.png)
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/final_combined_2024.png)
 
 *Click to expand images and links*
 
