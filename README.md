@@ -34,8 +34,6 @@ For 2024, I completed 9 reproductions in ```R``` using ```ggplot2``` Side-by-sid
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/final_combined.png)
 
------------------------------------
-## **2024 REPRODUCTIONS BY WEEK**
 *Click to expand images and links*
 
 <details>
