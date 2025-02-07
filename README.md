@@ -137,7 +137,7 @@ Serving as an overview, this plate includes both a map and pie chart showing pro
 
 **[A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37)](https://github.com/makuhs/DuboisChallenge/tree/main/2024/Week10)**
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2024/week10/week10_sidebyside.png)
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2024/Week10/week10_sidebyside.png)
 </details>
 
 ```#DuBoisChallenge2024```
