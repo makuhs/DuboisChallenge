@@ -36,7 +36,7 @@ Maps comparing the population of Black Georgians in the years 1870 and 1880.
 
 **[Negro Population of Georgia by Counties, 1870, 1880 (plate 06)](https://github.com/makuhs/DuboisChallenge/tree/main/Week01)**
 
-![Model](https://github.com/makuhs/DuboisChallenge/blob/main/Week01/week1_sidebyside.png) 
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2024/Week01/week1_sidebyside.png) 
 
 ## Week 2
 Unique barchart depicting the percentages of free and enslaved Black Americans before and after emancipation in 1863. 
