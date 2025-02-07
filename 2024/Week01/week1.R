@@ -15,7 +15,7 @@ library(sf)
 library(patchwork)
 
 #data load
-georgiaShape <- sf::read_sf("data/georgia-1880-county-shapefile")
+georgiaShape <- sf::read_sf("2024/data/georgia-1880-county-shapefile")
 
 #data clean & wrangle 
 colnames(georgiaShape)[14] <- "data1870"
