@@ -23,7 +23,7 @@ A reminder that the Black population in America today is incredibly diverse and 
 ###### *(3) 'Reparative Description Preferred Terms’ 2023 ([US National Archives](https://www.archives.gov/research/catalog/lcdrg/appendix/black-person))*
 
 -----------------------------------
-## **2025 REPRODUCTIONS BY WEEK**
+## **2025 REPRODUCTIONS**
 
 ```#DuBoisChallenge2025```
 
