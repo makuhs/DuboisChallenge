@@ -4,4 +4,4 @@
 
 **Subtitles/Text Labels:** Vasarley Light by Simon Becker, Frederico Orru, and Jose Cunyat 
 
-**Handwritten Script** Caveat by Pablo Impallari (google font)
+**Handwritten Script:** Caveat by Pablo Impallari (google font)
