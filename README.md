@@ -49,7 +49,7 @@ Map of Georgia depicting acres of land owned by Black Georgians from 1870-1899
 
 Graph depicting value of property owned by Black Georgians from 1870-1900
 
-**[Property Owned by Negroes in Georgia (plate 21)](https://github.com/makuhs/DuboisChallenge/tree/main/2025/Week04)**
+**[Valuation of Town and City Property Owned by Georgia Negroes (plate 21)](https://github.com/makuhs/DuboisChallenge/tree/main/2025/Week04)**
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2025/Week04/week4_sidebyside.png)
 
