@@ -53,6 +53,15 @@ Graph depicting value of property owned by Black Georgians from 1870-1900
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2025/Week04/week4_sidebyside.png)
 
+
+### **WEEK 6:**
+
+Graph depicting value of black-owned property and black land owners in Savannah and Atlanta GA from 1870-1900
+
+**[Negro property in two cities of Georgia (plate 23)](https://github.com/makuhs/DuboisChallenge/tree/main/2025/Week06)**
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2025/Week06/week6_sidebyside.png)
+
 ```#DuBoisChallenge2025```
 
 -----------------------------------
