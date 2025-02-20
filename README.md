@@ -1,8 +1,7 @@
 # #DuboisChallenge
 Contributions to the weekly challenges from the Data Visualization Society to explore the work of W.E.B Dubois — a Black American civil rights activist, sociologist and writer—by recreating the visualizations from the 1900 Paris Exposition using modern tools
 
-Full project details can be found here: 
-https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025 
+Full project details can be found [here](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025)
 
 I am challenging myself to replicate all graphics as close as possible entirely in R using ```#ggplot2```  with no post-processing. 
 
@@ -52,6 +51,15 @@ Graph depicting value of property owned by Black Georgians from 1870-1900
 **[Valuation of Town and City Property Owned by Georgia Negroes (plate 21)](https://github.com/makuhs/DuboisChallenge/tree/main/2025/Week04)**
 
 ![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2025/Week04/week4_sidebyside.png)
+
+
+### **WEEK 6:**
+
+Graph depicting value of black-owned property and black land owners in Savannah and Atlanta GA from 1870-1900
+
+**[Negro property in two cities of Georgia (plate 23)](https://github.com/makuhs/DuboisChallenge/tree/main/2025/Week06)**
+
+![Model](https://github.com/makuhs/DuboisChallenge/blob/main/2025/Week06/week6_sidebyside.png)
 
 ```#DuBoisChallenge2025```
 
